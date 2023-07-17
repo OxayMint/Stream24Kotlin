@@ -51,15 +51,17 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
-publishing {
-    publications {
-        release(MavenPublication) {
-            groupId = 'com.github.OxayMint'
-            artifactId = 'stream24'
-            version = '0.2.0'
 
-            afterEvaluate {
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                groupId = 'com.github.OxayMint'
+                artifactId = 'stream24'
+                version = '0.2.0'
                 from components.release
+
+
             }
         }
     }
