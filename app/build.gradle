@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace 'dev.fgoja.demo.stream24_kotlin'
-    compileSdk 34
+    compileSdk 33
 
     defaultConfig {
         applicationId "dev.fgoja.demo.stream24_kotlin"
@@ -67,6 +67,5 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
-    implementation 'com.github.OxayMint:Stream24Android:v0.1.0'
 
 }

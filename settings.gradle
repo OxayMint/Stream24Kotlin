@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Stream24_Kotlin"
 include ':app'
 include ':stream24'
+project(':stream24').name = 'stream24'

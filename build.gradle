@@ -5,4 +5,6 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.8.22' apply false
 }
 
-apply plugin 'maven-publish'
+group = 'dev.fgoja'
+version = '0.2.0'
+

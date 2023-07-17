@@ -1,9 +1,6 @@
 package dev.fgoja.stream24
 
 class Stream24() {
-
-
-
     enum class Stream24ContentType {
         shopInShops, minisite
     }
