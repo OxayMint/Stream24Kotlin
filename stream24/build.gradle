@@ -58,7 +58,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.OxayMint'
                 artifactId = 'stream24'
-                version = '0.2.0'
+                version = '0.3.0'
                 from components.release
 
 
