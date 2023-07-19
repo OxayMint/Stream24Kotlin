@@ -35,7 +35,7 @@ Then we need to add the dependency itself(in app module build.gradle):
 
 dependencies {
         ...
-        implementation 'com.github.OxayMint:Stream24Kotlin:0.4.0'
+        implementation 'com.github.OxayMint:Stream24Kotlin:0.5.0'
 	}
 
 
