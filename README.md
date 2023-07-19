@@ -5,7 +5,9 @@ An android library for generating 24Stream HTML widgets to be used in WebView or
 
 ## Installation
 
-To install the library you need to add JitPack repository first(if you haven't already). In your project `root gradle.build` file add `maven { url 'https://jitpack.io' }` inside allprojects->repositories like following:
+To install the library you need to add JitPack repository first(if you haven't already). 
+
+For older projects in the root `build.gradle` file add `maven { url 'https://jitpack.io' }` inside `allprojects->repositories` like following:
 
 ```gradle
 	allprojects {
@@ -17,7 +19,7 @@ To install the library you need to add JitPack repository first(if you haven't a
 
 ```
 
-In newer projects you may need to add it to `settings.gradle` too. It should be in `dependencyResolutionManagement->repositories` like following:
+For newer projects you need to add it to `settings.gradle`. It should be in `dependencyResolutionManagement->repositories` like following:
 
 ```
 dependencyResolutionManagement {
@@ -28,6 +30,13 @@ dependencyResolutionManagement {
     }
 }
 ```
+
+Then we need to add the dependency itself(in app module build.gradle):
+
+dependencies {
+        ...
+        implementation 'com.github.OxayMint:Stream24Kotlin:0.4.0'
+	}
 
 
 ## Usage
