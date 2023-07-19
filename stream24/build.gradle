@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'dev.fgoja.stream24'
+    namespace 'com.github.OxayMint'
     compileSdk 34
 
     defaultConfig {
@@ -58,10 +58,8 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.OxayMint'
                 artifactId = 'stream24'
-                version = '0.3.0'
+                version = '0.5.0'
                 from components.release
-
-
             }
         }
     }
